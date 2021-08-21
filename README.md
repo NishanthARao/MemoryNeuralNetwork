@@ -23,4 +23,4 @@ cd MemoryNeuralNetwork
 python3 test.py
 ```
 
-[1] P. S. Sastry, G. Santharam and K. P. Unnikrishnan, "Memory neuron networks for identification and control of dynamical systems," in IEEE Transactions on Neural Networks, vol. 5, no. 2, pp. 306-319, March 1994, doi: 10.1109/72.279193. [Available Online](https://ieeexplore.ieee.org/abstract/document/279193)
+[1] P. S. Sastry, G. Santharam and K. P. Unnikrishnan, "Memory neuron networks for identification and control of dynamical systems," in IEEE Transactions on Neural Networks, vol. 5, no. 2, pp. 306-319, March 1994, doi: 10.1109/72.279193. [Available Online](https://ieeexplore.ieee.org/abstract/document/279193).
