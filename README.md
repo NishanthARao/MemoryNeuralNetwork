@@ -1,22 +1,22 @@
 # MemoryNeuralNetwork
 This repository contains a basic Python implementation of the Memory Neural Network, as proposed in [1]. The program is implemented in using numpy library.
 
-# Install the libraries
+## Install the libraries
 ```
 pip3 install numpy matplotlib --user
 ```
-# Clone the repository
+## Clone the repository
 ```
 git clone https://github.com/NishanthARao/MemoryNeuralNetwork.git
 ```
-# Train the Network
+## Train the Network
 The program implements Example 3.1 as described in [1].
 ```
 cd MemoryNeuralNetwork
 python3 train.py
 ```
 The trained model is saved in the folder `trained_models`.
-# Test the network
+## Test the network
 The first reference trajectory (as shown in Fig.3 of [1]) is chosen.
 ```
 cd MemoryNeuralNetwork
