@@ -11,7 +11,7 @@ def evaluate_plant(y, u):
 
 def main():
     np.random.seed(16981)
-    mnn = MemoryNeuralNetwork(2, 6, 1, 0.5, 0.5)
+    mnn = MemoryNeuralNetwork(2, 6, 1, 0.2, 0.1)
     timesteps = 77000
     is_unstable = False
     y = [0.0] * 4             #y = [y, y1, y2, y3]
