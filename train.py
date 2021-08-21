@@ -5,12 +5,12 @@ from MemoryNetwork import MemoryNeuralNetwork
 def evaluate_plant(y, u):
     y1, y2, y3 = y[0], y[1], y[2]
     u1, u2 = u[0], u[1]
-    plant_output = (y1 * y2 * y3 * u1 * (y3 - 1) + u1)/(1 + y2 ** 2 + y3 ** 2)
+    plant_output = (y1 * y2 * y3 * u2 * (y3 - 1) + u1)/(1 + y2 ** 2 + y3 ** 2)
     return plant_output
     
 
 def main():
-    np.random.seed(103)
+    np.random.seed(16981)
     mnn = MemoryNeuralNetwork(2, 6, 1, 0.5, 0.5)
     timesteps = 77000
     is_unstable = False
